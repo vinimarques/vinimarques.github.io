@@ -1213,7 +1213,7 @@ footer .content h2 {
     width: 90%;
   }
   nav {
-    width: 280px;
+    width: 260px;
   }
   .nav-active .icon-nav-close {
     -webkit-transform: translate3d(280px, 0, 0);
