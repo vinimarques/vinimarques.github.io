@@ -4,7 +4,7 @@
 		"about": {
 			"title": "Sobre",
 			"subtitle": "Um pouco sobre mim",
-			"description": "<p>Eu tenho 29 anos e moro na cidade de Pelotas - RS - Brasil. Trabalho como desenvolvedor desde 2004, quando começei a trabalhar na <a href=\"http://www.ag2.com.br\" target=\"_blank\">AG2 Publicis Modem</a>, onde trabalhei até março de 2013. Em abril de 2013 começei a trabalhar na <a href=\"http://nodo.cc\" target=\"_blank\">Nodo</a>, onde trabalho até hoje. Sou casado, metido a atleta, maníaco por carne, louco por uma gelada e adoro viajar. Sou dedicado, organizado, comprometido e apaixonado pelo que faço!</p>"
+			"description": "<p>Eu tenho {{AGE}} anos e moro na cidade de Pelotas - RS - Brasil. Trabalho como desenvolvedor desde 2004, quando começei a trabalhar na <a href=\"http://www.ag2.com.br\" target=\"_blank\">AG2 Publicis Modem</a>, onde trabalhei até março de 2013. Em abril de 2013 começei a trabalhar na <a href=\"http://nodo.cc\" target=\"_blank\">Nodo</a>, onde trabalho até hoje. Sou casado, metido a atleta, maníaco por carne, louco por uma gelada e adoro viajar. Sou dedicado, organizado, comprometido e apaixonado pelo que faço!</p>"
 		},
 		"highlights": {
 			"title": "Trabalhando com empresas globais",
