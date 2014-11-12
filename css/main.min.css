@@ -177,6 +177,7 @@ strong {
   background: #273347;
   text-align: center;
   display: table;
+  opacity: 0.95;
 }
 .loader div {
   width: 100%;
@@ -188,6 +189,30 @@ strong {
 }
 .loaded .loader {
   display: none;
+}
+/* Languages */
+.lst-language {
+  position: fixed;
+  top: 40px;
+  right: 35px;
+  z-index: 9997;
+}
+.lst-language a {
+  display: block;
+  padding: 10px;
+  margin-left: 10px;
+  color: #fff;
+  background: #273347;
+  float: left;
+  text-decoration: none;
+  font: 20px 'opensans_semibold';
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+}
+.lst-language a.active {
+  background: #f9a400;
+  color: #273347;
 }
 /* Header */
 header {
