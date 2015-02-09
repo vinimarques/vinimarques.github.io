@@ -576,63 +576,323 @@ var ANSWSERS = [
 			"response": 	"made the hill slippery"
 		},
 		{
-			"key": 			"",
-			"response": 	""
+			"key": 			"denied",
+			"response": 	"denied having touched"
 		},
 		{
-			"key": 			"",
-			"response": 	""
+			"key": 			"offered",
+			"response": 	"offered to take"
 		},
 		{
-			"key": 			"",
-			"response": 	""
+			"key": 			"encouraged",
+			"response": 	"encouraged karen to"
 		},
 		{
-			"key": 			"",
-			"response": 	""
+			"key": 			"put",
+			"response": 	"you put me up in"
 		},
 		{
-			"key": 			"",
-			"response": 	""
+			"key": 			"put",
+			"response": 	"put up with someone one"
 		},
 		{
-			"key": 			"",
-			"response": 	""
+			"key": 			"wish",
+			"response": 	"wish I wasn't"
 		},
 		{
-			"key": 			"",
-			"response": 	""
+			"key": 			"on",
+			"response": 	"congratulated her on getting the"
 		},
 		{
-			"key": 			"",
-			"response": 	""
+			"key": 			"for",
+			"response": 	"blamed peter for"
 		},
 		{
-			"key": 			"",
-			"response": 	""
+			"key": 			"admitted",
+			"response": 	"admitted having spoken to him"
 		},
 		{
-			"key": 			"",
-			"response": 	""
+			"key": 			"recommended",
+			"response": 	"recommended visiting"
 		},
 		{
-			"key": 			"",
-			"response": 	""
+			"key": 			"refuse",
+			"response": 	"refuse to go"
 		},
 		{
-			"key": 			"",
-			"response": 	""
+			"key": 			"must",
+			"response": 	"must have been at"
 		},
 		{
-			"key": 			"",
-			"response": 	""
+			"key": 			"addition",
+			"response": 	"addition to a sports car"
 		},
 		{
-			"key": 			"",
-			"response": 	""
+			"key": 			"despite",
+			"response": 	"despite being told"
 		},
 		{
-			"key": 			"",
-			"response": 	""
+			"key": 			"most",
+			"response": 	"most of the books had"
+		},
+		{
+			"key": 			"need",
+			"response": 	"any need to buy such"
+		},
+		{
+			"key": 			"price",
+			"response": 	"is the price of these"
+		},
+		{
+			"key": 			"matter",
+			"response": 	"doesn't matter if"
+		},
+		{
+			"key": 			"anywhere",
+			"response": 	"can't park anywhere in the"
+		},
+		{
+			"key": 			"pay",
+			"response": 	"doesn't pay any attention to"
+		},
+		{
+			"key": 			"admitted",
+			"response": 	"said she had admitted"
+		},
+		{
+			"key": 			"be",
+			"response": 	"will be seen by the"
+		},
+		{
+			"key": 			"hope",
+			"response": 	"no hope of winning"
+		},
+		{
+			"key": 			"keep",
+			"response": 	"keep this information to"
+		},
+		{
+			"key": 			"does",
+			"response": 	"much does it cost"
+		},
+		{
+			"key": 			"been",
+			"response": 	"haven't been to the museum"
+		},
+		{
+			"key": 			"no",
+			"response": 	"no doubt it is"
+		},
+		{
+			"key": 			"listen",
+			"response": 	"listen to what i am"
+		},
+		{
+			"key": 			"wish",
+			"response": 	"wish i hadn't left my"
+		},
+		{
+			"key": 			"had",
+			"response": 	"had gone to the cinema"
+		},
+		{
+			"key": 			"first",
+			"response": 	"is the first time i have"
+		},
+		{
+			"key": 			"better",
+			"response": 	"had better tell her"
+		},
+		{
+			"key": 			"on",
+			"response": 	"carry on speaking if i"
+		},
+		{
+			"key": 			"get",
+			"response": 	"take an hour to get"
+		},
+		{
+			"key": 			"look",
+			"response": 	"you look after mary on"
+		},
+		{
+			"key": 			"belong",
+			"response": 	"that wallet belong to you"
+		},
+		{
+			"key": 			"hardly",
+			"response": 	"have hardly started"
+		},
+		{
+			"key": 			"charge",
+			"response": 	"in charge of the sales"
+		},
+		{
+			"key": 			"me",
+			"response": 	"always reminds me of my"
+		},
+		{
+			"key": 			"cheaper",
+			"response": 	"isn't a cheaper typewriter onm"
+		},
+		{
+			"key": 			"due",
+			"response": 	"due to heavy rain"
+		},
+		{
+			"key": 			"fit",
+			"response": 	"doesn't fit"
+		},
+		{
+			"key": 			"soon",
+			"response": 	"as soon as you arrive"
+		},
+		{
+			"key": 			"whose",
+			"response": 	"whose this pen is"
+		},
+		{
+			"key": 			"of",
+			"response": 	"is of great importance"
+		},
+		{
+			"key": 			"got",
+			"response": 	"got used to speaking"
+		},
+		{
+			"key": 			"room",
+			"response": 	"enough room in your house"
+		},
+		{
+			"key": 			"spite",
+			"response": 	"spite of the rain"
+		},
+		{
+			"key": 			"you",
+			"response": 	"you hadn't left your job"
+		},
+		{
+			"key": 			"effort",
+			"response": 	"make an effort to"
+		},
+		{
+			"key": 			"different",
+			"response": 	"makes no difference which chemical"
+		},
+		{
+			"key": 			"long",
+			"response": 	"as long as I return home"
+		},
+		{
+			"key": 			"able",
+			"response": 	"would have been able to"
+		},
+		{
+			"key": 			"have",
+			"response": 	"have to be cleaned again"
+		},
+		{
+			"key": 			"better",
+			"response": 	"have been better if you"
+		},
+		{
+			"key": 			"nearly",
+			"response": 	"nearly all of the cars"
+		},
+		{
+			"key": 			"being",
+			"response": 	"ship is being launched"
+		},
+		{
+			"key": 			"rather",
+			"response": 	"would rather you spent less"
+		},
+		{
+			"key": 			"let",
+			"response": 	"let me know"
+		},
+		{
+			"key": 			"hand",
+			"response": 	"hand out these tests"
+		},
+		{
+			"key": 			"being",
+			"response": 	"the machine was being operated"
+		},
+		{
+			"key": 			"nobody",
+			"response": 	"was nobody wearing yellow"
+		},
+		{
+			"key": 			"forward",
+			"response": 	"looking forward to seeing"
+		},
+		{
+			"key": 			"describe",
+			"response": 	"you describe it to me"
+		},
+		{
+			"key": 			"should",
+			"response": 	"should not have been given"
+		},
+		{
+			"key": 			"should",
+			"response": 	"this antique vase worth"
+		},
+		{
+			"key": 			"turned",
+			"response": 	"three students turned up for"
+		},
+		{
+			"key": 			"because",
+			"response": 	"was cancelled because of the"
+		},
+		{
+			"key": 			"carry",
+			"response": 	"carry on"
+		},
+		{
+			"key": 			"more",
+			"response": 	"been a more expensive book"
+		},
+		{
+			"key": 			"belong",
+			"response": 	"does this bicycle belong"
+		},
+		{
+			"key": 			"used",
+			"response": 	"isn't used to eating three"
+		},
+		{
+			"key": 			"so/can't",
+			"response": 	"so you can't"
+		},
+		{
+			"key": 			"capable",
+			"response": 	"your brother capable of taking"
+		},
+		{
+			"key": 			"succeeded",
+			"response": 	"succeeded in crossing the river"
+		},
+		{
+			"key": 			"rather",
+			"response": 	"would rather you left"
+		},
+		{
+			"key": 			"apologize",
+			"response": 	"you should apologize for your"
+		},
+		{
+			"key": 			"too",
+			"response": 	"too much to do"
+		},
+		{
+			"key": 			"costs",
+			"response": 	"costs nothing to go to"
+		},
+		{
+			"key": 			"which",
+			"response": 	"the only car which hasn't"
 		}
 	];
