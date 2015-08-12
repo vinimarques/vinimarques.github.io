@@ -10,11 +10,14 @@
 		// access_token: 350701577.d672437.65a407b060bd449daf8a37ca900636e6
 		// id: 350701577
 
-		// 67e618d677294efa80dd6060f5b3ed05
-		// curl -F 'client_id=d672437dbc0b414d9ea00f62662f4838' -F 'client_secret=d8418f9baec149d8b3c0be1a9943ef01' -F 'grant_type=authorization_code' -F 'redirect_uri=http://v2rm.com.br/topinsta/' -F 'code=67e618d677294efa80dd6060f5b3ed05' https://api.instagram.com/oauth/access_token
-		// access_token: "350701577.d672437.65a407b060bd449daf8a37ca900636e6",
+		// ee1a49d502364c1d9b813bd4c49cc431
+		// curl -F 'client_id=7b3c14d21dc04cdd971c2a262facfef3' -F 'client_secret=cd08f2258249447b8787d2ceedb0d507' -F 'grant_type=authorization_code' -F 'redirect_uri=http://v2rm.com.br/topinsta/' -F 'code=ee1a49d502364c1d9b813bd4c49cc431' https://api.instagram.com/oauth/access_token
+		
+		// {"access_token":"1836111965.7b3c14d.b3f331b1e30d4c9c85916fb554136bcc",
+		// id":"1836111965"}}Viniciuss-MacBook-Air:~ vinicius$
 
-		this.token = "350701577.d672437.65a407b060bd449daf8a37ca900636e6";
+
+		this.token = "1836111965.7b3c14d.b3f331b1e30d4c9c85916fb554136bcc";
 
 		$.get('https://api.instagram.com/v1/users/350701577/media/liked?access_token=' + this.token , function(data) {
 			console.log(data);
