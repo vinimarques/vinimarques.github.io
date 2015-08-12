@@ -16,7 +16,7 @@
 
 		this.token = "350701577.d672437.65a407b060bd449daf8a37ca900636e6";
 
-		$.get('https://api.instagram.com/v1/users/self/media/liked?access_token=' + this.token , function(data) {
+		$.get('https://api.instagram.com/v1/users/350701577/media/liked?access_token=' + this.token , function(data) {
 			console.log(data);
 		});
 
