@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"build": "webpack --mode production && push-dir --dir=dist --branch=gh-pages",
+		"build": "webpack --mode production && push-dir --dir=dist --branch=master",
 		"dev": "NODE_ENV=development webpack-dev-server --mode=development --progress --colors --hot --inline"
 	},
 	"author": "",
