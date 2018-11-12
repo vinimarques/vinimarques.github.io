@@ -1,0 +1,14 @@
+{
+	"name": "V2RM | Vinicius Marques",
+	"short_name": "V2RM",
+	"start_url": ".",
+	"display": "standalone",
+	"background_color": "#2A3443",
+	"description": "Personal portifolio",
+	"theme_color": "#2A3443",
+	"icons": [{
+		"src": "./img/icons/icon-512x512.png",
+		"sizes": "512x512",
+		"type": "image/png"
+	}]
+}

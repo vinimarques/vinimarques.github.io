@@ -1,0 +1,24 @@
+$small-width: 321px
+$medium-width: 414px
+$tablet-width: 768px
+$desktop-width: 1024px
+
+@mixin xxs-screen
+  @media (max-width: #{$small-width - 1px})
+    @content
+
+@mixin xxm-screen
+  @media (max-width: #{$medium-width - 1px})
+    @content
+
+@mixin xs-screen
+  @media (max-width: #{$tablet-width - 1px})
+    @content
+
+@mixin sm-screen
+  @media (max-width: #{$tablet-width})
+    @content
+
+@mixin md-screen
+  @media (min-width: #{$tablet-width + 1px})
+    @content
