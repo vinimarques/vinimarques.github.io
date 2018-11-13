@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>V2RM | Vinicius  Marques</title>
+	<meta name="description" content="Personal portifolio."/>
+
+	<meta name="theme-color" content="#db5945">
+    <link rel="icon" sizes="192x192" href="icon.png">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <div id="app">
+		<header>
+			<picture>
+				<source media="(max-width: 650px)" srcset="https://graph.facebook.com/768113702/picture?width=240" alt="Vinicius Marques">
+				<source media="(max-width: 465px)" srcset="https://graph.facebook.com/768113702/picture?width=140" alt="Vinicius Marques">
+				<img src="https://graph.facebook.com/768113702/picture?width=640" alt="Vinicius Marques">
+			</picture>
+		</header>
+		<section id="about">
+			<h1>Hi, my name is <strong>Vinicius Marques</strong> and I am <script>document.write('33');</script> years-old and I live in Pelotas - RS - Brazil.</h1>
+			<p>I hold a Bachelor of Computer Science granted by the Catholic University Pelotas (UCPel-2011) and a Postgraduate in Project Management by the Senac Technology Faculy, in Pelotas.</p>
+			<p>I have been working as a Front End Developer since 2004, when I started working at the AG2 agency, where I worked up to March of 2013. In April of 2013, I was invited to work at Nodo, where I have currently been working as Head of the Front End team, as well as a Training and Development Manager.</p>
+			<p>I work with a variety of large worlwide renowned companies. I have worked on short, medium, and long term projects, ranging from an average two weeks to two years time projects, as a Senior Front End Developer, Team Leader, and Technical Responsible.</p>
+		</section>
+		<footer id="follow">
+            <div>
+                <h2>Follow Me</h2>
+                <ul>
+                    <li><a href="https://twitter.com/v2rm" target="_blank" alt="Twitter">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/viniroloff/" target="_blank" alt="Instagram">Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/in/viniciusroloffmarques" target="_blank" alt="LinkedIn">LinkedIn</a></li>
+                    <li><a href="https://github.com/vinimarques" target="_blank" alt="GitHub">GitHub</a></li>
+                    <li><a href="https://www.facebook.com/vinicius.roloffmarques" target="_blank" alt="Facebook">Facebook</a></li>
+                </ul>
+            </div>
+        </footer>
+	</div>
+  <script>
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('/sw.js')
+				.then(function () {
+					console.log('Service Worker Registered');
+				});
+		}
+	</script>
+</body>
+</html>

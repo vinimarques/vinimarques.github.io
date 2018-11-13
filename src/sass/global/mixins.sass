@@ -22,3 +22,8 @@ $desktop-width: 1024px
 @mixin md-screen
   @media (min-width: #{$tablet-width + 1px})
     @content
+
+@mixin maxWidth
+    max-width: 700px
+    margin: 0 auto
+    box-sizing: border-box

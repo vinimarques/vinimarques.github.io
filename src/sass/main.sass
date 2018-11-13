@@ -1,0 +1,88 @@
+// Global
+@import './global/mixins';
+@import './global/reset';
+@import './global/colors';
+
+body,
+html
+	background: $secondary
+	color: white
+	font-family: 'Open Sans'
+    height: 100vh
+
+@include md-screen
+    #app
+        height: 100vh
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+
+header
+	padding: 30px 20px
+    @include maxWidth
+
+	img
+		display: block
+		width: 50%
+		max-width: 300px
+		border-radius: 100%
+		margin: 0 auto
+
+section
+    text-align: center
+    padding: 0 20px
+    @include maxWidth
+
+    @include md-screen
+        text-align: left
+
+    h1
+        font-size: 1.5em
+        line-height: 1.2
+        padding: 0 0 20px
+        font-weight: 600
+
+        strong
+            color: $primary
+            font-weight: bold
+
+    h2
+        font-size: 1.5em
+        font-weight: 600
+        padding-bottom: 20px
+
+    p
+        font-size: 1em
+        line-height: 1.6
+        padding-bottom: 20px
+
+footer
+    background: darken($secondary, 5%)
+    padding: 30px 20px
+    text-align: center
+
+    @include md-screen
+        text-align: left
+
+    div
+       @include maxWidth
+
+    h2
+        font-size: 1.2em
+        line-height: 1.2
+        font-weight: 600
+        padding-bottom: 20px
+
+    ul
+        li
+            a
+                color: $primary
+                font-size: 1em
+                line-height: 1.4
+
+        @include md-screen
+            display: flex
+
+            li:before
+                content: '/'
+                padding: 0 5px
