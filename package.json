@@ -7,6 +7,7 @@
   "main": "",
   "scripts": {
     "lint": "eslint src",
+    "prod": "webpack -p --progress --config config/webpack.prod.js && push-dir --dir=dist --branch=master",
     "build": "webpack -p --progress --config config/webpack.prod.js",
     "serve": "webpack-dev-server -d --progress --color --config config/webpack.dev.js"
   },
@@ -49,6 +50,7 @@
     "babel-preset-env": "^1.7.0",
     "eslint-config-prettier": "^3.3.0",
     "eslint-plugin-prettier": "^3.0.0",
-    "eslint-plugin-react": "^7.11.1"
+    "eslint-plugin-react": "^7.11.1",
+    "push-dir": "^0.4.1"
   }
 }
