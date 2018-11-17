@@ -2,7 +2,7 @@ var cacheName = 'v2rm';
 var filesToCache = [
 	'/',
 	'/index.html',
-	'/style.css',
+	'/styles.css',
 	'/bundle.js'
 ];
 self.addEventListener('install', function (e) {
